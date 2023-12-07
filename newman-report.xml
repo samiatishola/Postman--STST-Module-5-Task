@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STSTStudentCourse" tests="15" time="12.611">
+  <testsuite name="Get All Todo Entries / Get All Todo Entries" id="27b423a1-6178-45d5-b397-d64a1e76b4d4" timestamp="2023-12-07T22:33:29.222Z" tests="6" failures="0" errors="0" time="1.637">
+    <testcase name="Status code should be 200" time="1.637" classname="StstStudentCourse"/>
+    <testcase name="Status code name is OK" time="1.637" classname="StstStudentCourse"/>
+    <testcase name="Confirm that the total results is 7.2.3.0" time="1.637" classname="StstStudentCourse"/>
+    <testcase name="Body matches string" time="1.637" classname="StstStudentCourse"/>
+    <testcase name="Validate JSON value in response" time="1.637" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get All Entries / Get All Entries" id="6ac42b35-4ce5-4e35-9208-4a070ed59206" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.387"/>
+  <testsuite name="Get entry per ID / Get entry per ID - Valid ID" id="5fd5a4e9-b8a8-4a99-829f-9e60f8de3712" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.374"/>
+  <testsuite name="Get entry per ID / Get entry per ID - Invalid ID(params not using TODO ID)" id="c0cd7854-6bc2-4ced-8568-bfa1a7865612" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.355"/>
+  <testsuite name="Get Books / Get Books - valid book" id="2ce2dc67-dfa6-4d23-b00f-ce924b465394" timestamp="2023-12-07T22:33:29.222Z" tests="4" failures="1" errors="0" time="4.858">
+    <testcase name="Status code is 200" time="4.858" classname="StstStudentCourse"/>
+    <testcase name="Status code name has string" time="4.858" classname="StstStudentCourse">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Created' but got 'OK'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f7ae0bef-c48f-4115-bc23-af163d16b505.]]>
+        <![CDATA[Collection name: STSTStudentCourse.]]>
+        <![CDATA[Request name: Get Books / Get Books - valid book.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'Created' but got 'OK'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Created' but got 'OK'
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Search for a book name called Viscount Who Loved Me" time="4.858" classname="StstStudentCourse"/>
+    <testcase name="Validate JSON value in response" time="4.858" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get Books by ID" id="553d298e-ef0e-4837-84f6-ca2abc715b34" timestamp="2023-12-07T22:33:29.222Z" tests="1" failures="0" errors="0" time="0.404">
+    <testcase name="Status code is 200" time="0.404" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get Books by Type" id="ae696ce1-5d71-444b-8454-ddb16081a95a" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.389"/>
+  <testsuite name="Place a book order / Place a book order - using book ID" id="a18c1f86-3c3b-4219-8efd-8125f757b81c" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.355"/>
+  <testsuite name="Place a book order / Place a book order - using book ID Copy" id="529d39f8-45c7-4ae4-ad90-3c066dc19fbf" timestamp="2023-12-07T22:33:29.222Z" tests="2" failures="0" errors="0" time="0.692">
+    <testcase name="Status code is 201" time="0.692" classname="StstStudentCourse"/>
+    <testcase name="Status code name is Created" time="0.692" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get an order / Get all orders" id="2525ada4-c441-4f99-9f6a-f0823f317424" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.695"/>
+  <testsuite name="Get an order / Get an order - using orderID" id="c4c5e18a-8abd-4990-b59a-07b6f8ae519f" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.384"/>
+  <testsuite name="Update an order / Update an order" id="b8c71d66-70d9-4618-baca-aed804add1b5" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.404"/>
+  <testsuite name="Delete an order / Delete an order" id="719fa7e3-0b95-45f0-841a-045818d086a2" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.797"/>
+  <testsuite name="Register API Client" id="22babe7e-3cc7-49ab-945c-c0875591124f" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.516"/>
+  <testsuite name="Get API Status" id="a2dca49d-02c3-418c-964e-fd44c55c688f" timestamp="2023-12-07T22:33:29.222Z" tests="0" failures="0" errors="0" time="0.364"/>
+</testsuites>
